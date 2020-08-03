@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: Roboto, sans-serif
+  font-size: 1rem
+  font-weight: 400
+  line-height: 1.5
+  color: #3C3C3B
+  text-align: left
+  background-color: #fff
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  margin-top: 0
+  margin-bottom: .5rem
+
+p
+  margin-top: 0
+  margin-bottom: 1rem
+
+ol,
+ul,
+dl
+  margin: 0
+  padding: 0
+  list-style: none
+
+a
+  $color: #3C3C3B
+  color: $color
+  text-decoration: none
+  &:hover
+    color: lighten($color, 30%)
+    text-decoration: none
+
+img
+  display: block
+  max-width: 100%
+
+input,
+button,
+  margin: 0
+  padding: 0
+  font-family: inherit
+  font-size: inherit
+  line-height: inherit
+  border: 0
+  outline: none
+
+pre
+  margin: 0

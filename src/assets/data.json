@@ -1,0 +1,61 @@
+[{
+    "shelfId": 1,
+    "shelfOrder": 4,
+    "products": [{
+        "productId": 1,
+        "productUrl": "https://dl.dropboxusercontent.com/s/q5wlprssw8rj56t/4015400881049.png?dl=0",
+        "productOrder": 2
+      },
+      {
+        "productId": 2,
+        "productUrl": "https://dl.dropboxusercontent.com/s/js5a1s35v6kvwvv/4015400892618.png?dl=0",
+        "productOrder": 1
+      },
+      {
+        "productId": 3,
+        "productUrl": "https://dl.dropboxusercontent.com/s/fyau39o2hmwtx08/4015600800390.png?dl=0",
+        "productOrder": 3
+      },
+      {
+        "productId": 3,
+        "productUrl": "https://dl.dropboxusercontent.com/s/fyau39o2hmwtx08/4015600800390.png?dl=0",
+        "productOrder": 4
+      }
+    ]
+  },
+  {
+    "shelfId": 2,
+    "shelfOrder": 2,
+    "products": [{
+        "productId": 4,
+        "productUrl": "https://dl.dropboxusercontent.com/s/hwu7b6pm2gp0whp/5413149333581.png?dl=0",
+        "productOrder": 3
+      },
+      {
+        "productId": 2,
+        "productUrl": "https://dl.dropboxusercontent.com/s/js5a1s35v6kvwvv/4015400892618.png?dl=0",
+        "productOrder": 2
+      },
+      {
+        "productId": 5,
+        "productUrl": "https://dl.dropboxusercontent.com/s/ithwstqa6v05hzr/8001090434524.png?dl=0",
+        "productOrder": 1
+      }
+    ]
+  },
+  {
+    "shelfId": 3,
+    "shelfOrder": 1,
+    "products": [{
+        "productId": 1,
+        "productUrl": "https://dl.dropboxusercontent.com/s/q5wlprssw8rj56t/4015400881049.png?dl=0",
+        "productOrder": 1
+      },
+      {
+        "productId": 6,
+        "productUrl": "https://dl.dropboxusercontent.com/s/v918nc70hn9wovm/8001090467133.png?dl=0",
+        "productOrder": 2
+      }
+    ]
+  }
+]
