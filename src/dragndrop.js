@@ -16,11 +16,11 @@ const dragndrop = options => {
   })
 
   const extract = elem => {
-    const { width } = getComputedStyle(elem)
+    const { width, height } = getComputedStyle(elem)
     elem.style.position = 'absolute'
     elem.style.zIndex = 10
-    elem.style.width = parseInt(width) * 0.8 + 'px'
-    elem.style.height = 'auto'
+    elem.style.width = width
+    elem.style.height = height
     document.body.append(elem)
   }
 
@@ -42,8 +42,8 @@ const dragndrop = options => {
     drop.classList.add('grab')
 
     function move(x, y) {
-      drop.style.left = x - shiftX * 0.8 + 'px'
-      drop.style.top = y - shiftY * 0.8 + 'px'
+      drop.style.left = x - shiftX + 'px'
+      drop.style.top = y - shiftY + 'px'
     }
 
     let current = null
